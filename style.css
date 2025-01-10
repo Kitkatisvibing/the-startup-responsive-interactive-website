@@ -1,0 +1,14 @@
+@font-face {
+    font-family:internationalPro ;
+    src: url(fonts/NBInternationalPro-Regular.ttf);
+}
+
+body{
+    background-color: #050A1A;
+    color:#DADFE3;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
