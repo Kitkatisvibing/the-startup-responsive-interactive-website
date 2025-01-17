@@ -12,3 +12,24 @@ body{
 ul{
     list-style: none;
 }
+
+img{
+    height: 50%;
+    width: auto;
+}
+
+.larger{
+   height: 100%;
+   width: auto;
+}
+
+.circle{
+    height: 100px;
+    width: 100px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background:#A9DA63;
+    color: #050A1A;
+}
