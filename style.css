@@ -9,13 +9,40 @@ body{
     text-align: center;
 }
 
-ul{
-    list-style: none;
+div{
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:40em;
+    width:auto;
+    margin-left:5%;
+    margin-right:5%;
+    margin-bottom: 10%;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 60% 1fr 1fr 5%;
+    gap:1em;
 }
+    .semigravel{
+        background-image: url(assets/semigravel.png);
+    }
+
+    .kopjebloemendaal{
+        background-image: url(assets/kopjebloemendaal.png);
+        display:none;
+    }
+
+    .rondehoep{
+        background-image: url(assets/rondehoep.png);
+        display:none;
+    }
 
 img{
     height: 50%;
     width: auto;
+}
+
+ul{
+    list-style: none;
 }
 
 .larger{

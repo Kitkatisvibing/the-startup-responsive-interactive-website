@@ -1,7 +1,7 @@
-const image = document.querySelector("image")
+const card = document.querySelector("")
 
-image.addEventListener('mouseover', Enlarge)
+card.addEventListener('mouseover', Enlarge)
 
 function Enlarge (){
-    image.classList.toggle('larger')
+    card.classList.toggle('larger')
 }
