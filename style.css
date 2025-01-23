@@ -7,6 +7,19 @@ body{
     background-color: #050A1A;
     color:#DADFE3;
     text-align: center;
+    font-family: internationalPro, sans-serif;
+}
+
+h1{
+    text-transform:uppercase;
+    text-align: left;
+    font-size:40px;
+}
+
+h2{
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 20px;
 }
 
 div{
@@ -16,11 +29,33 @@ div{
     width:auto;
     margin-left:5%;
     margin-right:5%;
-    margin-bottom: 10%;
     display: grid;
-    grid-template-columns:1fr 1fr 1fr 1fr;
-    grid-template-rows: 60% 1fr 1fr 5%;
+    grid-template-columns:1fr 1fr 1fr 2fr;
+    grid-template-rows: 60% 1fr 2fr 5%;
     gap:1em;
+}
+
+ul{
+    grid-column-start:1;
+    grid-column-end:-1;
+    grid-row-start:4;
+    display:flex;
+    gap:2em;
+    margin-bottom:1em;
+}
+
+h3{
+    font-size:30px;
+    grid-column-start: 1;
+    grid-column-end:4;
+    grid-row-start:3;
+}
+
+.route{
+    grid-column-start: 4;
+    grid-column-end:-1;
+    grid-row-start: 3;
+    grid-row-end:-1;
 }
     .semigravel{
         background-image: url(assets/semigravel.png);
@@ -36,18 +71,8 @@ div{
         display:none;
     }
 
-img{
-    height: 50%;
-    width: auto;
-}
-
 ul{
     list-style: none;
-}
-
-.larger{
-   height: 100%;
-   width: auto;
 }
 
 .circle{
@@ -59,4 +84,8 @@ ul{
     border-radius: 50%;
     background:#A9DA63;
     color: #050A1A;
+}
+
+.scan{
+    margin-top:-15%;
 }

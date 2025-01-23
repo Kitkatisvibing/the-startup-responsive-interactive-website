@@ -1,7 +1,8 @@
-const card = document.querySelector("")
+const semi = document.querySelector(".semigravel")
+const kopje = document.querySelector(".kopjebloemendaal")
 
-card.addEventListener('mouseover', Enlarge)
+semi.addEventListener('click', Show)
 
-function Enlarge (){
-    card.classList.toggle('larger')
+function Show (){
+    kopje.classList.toggle('kopjebloemendaal')
 }
