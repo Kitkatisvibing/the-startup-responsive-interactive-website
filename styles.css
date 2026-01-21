@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+    margin: 0;
+
+    ul{
+    list-style: none;
+    }
+}
+
+header{
+    display: flex;
+}
+
+form{
+    border: 1px solid;
+}
+
+footer{
+    text-align: start;
+}
