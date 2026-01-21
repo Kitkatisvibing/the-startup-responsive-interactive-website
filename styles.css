@@ -1,18 +1,104 @@
+:root{
+    --background-color: #FFFFFF;
+    --primary-text-color: #43444E;
+    --secondary-text-color: #F2725F;
+    --tertiary-text-color: #ffffff; 
+    --notice-color:  #F2725F;
+    --notice-hover: #F05D47;
+    --seperator-color: #cfcfcf;
+
+}
+
 body{
     text-align: center;
+    color: var(--primary-text-color);
     margin: 0;
 
     ul{
-    list-style: none;
+        list-style: none;
+    }
+
+    a{
+      text-decoration: none;
+      color: var(--primary-text-color);
+    }
+    
+    a:hover{
+        color: var(--secondary-text-color);
     }
 }
 
 header{
     display: flex;
+    justify-content: space-between;
+
+    button{
+        background-color: var(--background-color);
+        border: none;
+    }
+
+    popover{
+
+    }
+    :popover-open{
+        text-align: start;
+    }
+
+    a{
+        padding-left: .25em;
+        padding-right: .25em;
+    }
+
+    .logo{
+        width: 10em;
+        padding-right: 5em;
+    }
+
+    .register{
+        color: var(--secondary-text-color);
+        border: 1px solid var(--notice-color);
+        border-radius: 10px;
+        padding:5px;
+    }
+
+    border-bottom: 1px solid var(--seperator-color);
+}
+
+h1{
+    text-align: start;
+}
+
+p{
+    text-align: start;
+    border-bottom: 1px solid var(--seperator-color);
 }
 
 form{
-    border: 1px solid;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-bottom: 1px solid var(--seperator-color);
+
+    textarea{
+        height:15em;
+        width: 80%;
+        resize: none;
+    }
+
+    button, input{
+        background-color: var(--notice-color);
+        color: var(--tertiary-text-color);
+        margin-bottom: 1em;
+        margin-top: 1em;
+        border: none;
+        border-radius: 10px;
+        padding:10px;
+
+    }
+
+    button:hover, input:hover{
+        background-color: var(--notice-hover);
+        cursor: pointer;
+    }
 }
 
 footer{
