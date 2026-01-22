@@ -36,15 +36,15 @@
     <h1>Soundslice ASCII viewer</h1>
     <p>Found ASCII music and want to convert it to a modern format? This is the right place.</p>
 
-    <form>
+    <main>
         <h2>Convert your ASCII</h2>
-        <label for="ASCII">Input your ASCII music</label>
-        <textarea type="text" class="ASCII"></textarea>
-        <button type="button">Convert your music</button>
-        <textarea type="text" class="output"></textarea>
-        <button type="button">Save to account</button>
-    </form>
-
+        <form>
+            <textarea type="text" class="ASCII"></textarea>
+            <button type="button" class="convert">Convert your music</button>
+            <textarea type="text" id="output" readonly></textarea>
+            <button type="button" class="save">Save to account</button>
+        </form>
+    </main>
     <footer>
         <h3>products</h3>
         <ul>
