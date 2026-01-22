@@ -80,11 +80,19 @@ header{
 
 h1{
     text-align: start;
+
+    @media (min-width: 560px){
+        text-align: center;
+    }
 }
 
 p{
     text-align: start;
     border-bottom: 1px solid var(--seperator-color);
+
+    @media (min-width: 560px){
+        text-align: center;
+    }
 }
 
 form{
@@ -156,5 +164,11 @@ footer{
 
     ul{
         padding: 0;
+    }
+
+    @media (min-width: 550px){
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
     }
 }
